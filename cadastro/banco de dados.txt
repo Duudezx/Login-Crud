@@ -1,0 +1,15 @@
+create database db_usuario;
+
+use db_usuario;
+
+create table tb_contato(
+cd_cpf varchar(14) not null,
+nm_usuario varchar(100),
+cd_celular varchar(20),
+ds_email varchar(100),
+cd_fixo varchar(15),
+cd_senha varchar(30),
+constraint pk_contato
+	primary key(cd_cpf));
+
+select * from tb_contato;
