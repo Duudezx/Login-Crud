@@ -1,0 +1,51 @@
+*{
+    font-family: sans-serif;
+}
+html{
+  height: 100%;
+}
+body{
+    height: 100%;
+    background-color: rgb(31, 34, 39);
+    color:white;
+}
+.bg{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(31, 34, 39);;;
+  background-size: 100%;
+  
+}
+.btn{
+  width: 100px;
+  padding: 5px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: #4b5a83;
+  color: #ecf0f1;
+  cursor: pointer;
+}
+img{
+width:45px;
+height: 45px;
+}
+
+.btna{
+  width: 100px;
+  padding: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-right: 5px;
+  text-decoration: none ;
+  background-color: #4b5a83;
+  border: 1px solid #000;
+  border-color: white;
+  color: #ecf0f1;
+  cursor: pointer;
+
+} 
